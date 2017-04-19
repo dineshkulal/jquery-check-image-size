@@ -35,7 +35,7 @@ Simple File-Input with default options :
 
 File-Input with custom options :
 ```
-<input type="file" class="check-image-size" data-min-width="800" data-min-height="800" data-max-width="800" data-max-height="800" >
+<input type="file" class="check-image-size" data-min-width="800" data-min-height="600" data-max-width="8000" data-max-height="6000" >
 ```
 
 ## Options
