@@ -4,11 +4,30 @@
 
 This plugin will show an error if the selected image in an HTML Input is not in the intended resolutions.
 
+## Installation
+
+Include the plugin file after initializing jQuery:
+
+```
+<script src="jquery.js"></script> 
+<script src="jquery.checkImageSize.min.js"></script>
+```
+
 ## Basic Usage
+
+Apply to all file-input :
 ```
 $("input[type=file]").checkImageSize();
 ```
+
+Apply to specific file-input with class **check-image-size** :
+
+```
+$("input[type=file].check-image-size").checkImageSize();
+```
+
 ## Options
+
 ```
 $("input[type=file]").checkImageSize({
     minWidth: 800,		// Numeric; Pixel value
@@ -21,5 +40,6 @@ $("input[type=file]").checkImageSize({
 ```
 
 ----
+
 Made with Love by **Jose Philip Raja** &mdash; Founder & Creative Director of **CreaveLabs IT Solutions LLP**
 http://josephilipraja.com, https://creavelabs.com
