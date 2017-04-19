@@ -26,6 +26,18 @@ Apply to specific file-input with class **check-image-size** :
 $("input[type=file].check-image-size").checkImageSize();
 ```
 
+### File-Input Configurations
+
+Simple File-Input with default options :
+```
+<input type="file" class="check-image-size" >
+```
+
+File-Input with custom options :
+```
+<input type="file" class="check-image-size" data-min-width="800" data-min-height="800" data-max-width="800" data-max-height="800" >
+```
+
 ## Options
 
 ```
