@@ -3,7 +3,7 @@
  * http://josephilipraja.github.io/jquery-check-image-size
  * ========================================================================
  * Made with Love by: Jose Philip Raja
- * Founder & Creative Director of CreaveLabs IT Solutions
+ * Founder & Creative Director of CreaveLabs IT Solutions LLP
  * http://josephilipraja.com, http://creavelabs.com
  * ========================================================================
  * Released under the MIT license.
